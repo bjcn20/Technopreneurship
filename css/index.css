@@ -1,0 +1,39 @@
+.backgroundxd{
+  /* background: linear-gradient(to right, #a0bef8, #b5f0f0); */
+  background-image: linear-gradient( #a0bef8, white);
+
+}
+
+.fontxd{
+  width: 60%;
+  font-size: 70px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.btnxd{
+  border-radius: 7px;
+  width: 290px;
+  height: 75px;
+  font-size: 22px;
+}
+
+*{
+  font-family: 'Apercu', sans-serif;
+
+}
+
+#picxd{
+  height: 500px;
+}
+
+.contentxd{
+  font-size: large;
+  text-align: center;
+  line-height: 2;
+}
+
+.titlexd{
+  font-weight: 600;
+}
