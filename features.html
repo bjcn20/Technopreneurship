@@ -11,7 +11,7 @@
 <body>
     <section class="background">
         <nav class="container">
-            <div class="row align-items-centerd-flex justify-content-between pb-5">
+            <div class="row align-items-centerd-flex justify-content-between pb-3">
                 <a href="##" class="col-1">
                     <img src="img/educlogo.png" alt="Educ+ logo" class="picture">
                 </a>
@@ -34,21 +34,21 @@
                 </div>
             </div>
         </nav>
-        <div class="container d-flex justify-content-center align-items-center pt-5">
+        <div class="container d-flex justify-content-center align-items-center pt-3">
             <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
-                <li class="p-4 nav-item active" role="presentation">
-                    <span class="nav-item featureIcons">
-                        <button class="nav-link active bg-transparent border-0" id="admin_features" data-bs-toggle="tab" data-bs-target="#admin_features-pane" type="button" role="tab" aria-controls="admin_features-pane" aria-selected="true">
+                <li class="p-4 nav-item" role="presentation">
+                    <span class="featureIcons">
+                        <button class="nav-link active bg-transparent border-0" id="admin-tab" data-bs-toggle="tab" data-bs-target="#admin-tab-pane" type="button" role="tab" aria-controls="admin-tab-pane" aria-selected="true">
                             <figure>
                                 <img src="/img/adminlogo.png" class="logoPic" alt="">
                             </figure>
-                            <label class="fontWeight text-center navColor" id="textDeco">Admin Features</label>
+                            <label class="fontWeight text-center navColor">Admin Features</label>
                         </button>
                     </span>
                 </li>
-                <li class="p-4">
-                    <span class="nav-item featureIcons">
-                        <button class="nav-link bg-transparent border-0" id="teacher_features" data-bs-toggle="tab" data-bs-target="#teacher_features-pane" type="button" role="tab" aria-controls="teacher_features-pane" aria-selected="false">
+                <li class="p-4 nav-item" role="presentation">
+                    <span class="featureIcons">
+                        <button class="nav-link bg-transparent border-0" id="teacher-tab" data-bs-toggle="tab" data-bs-target="#teacher-tab-pane" type="button" role="tab" aria-controls="teacher-tab-pane" aria-selected="false">
                             <figure>
                                 <img src="/img/teacherlogo.png" class="logoPic" alt="">
                             </figure>
@@ -56,9 +56,9 @@
                         </button>
                     </span>
                 </li>
-                <li class="p-4">
-                    <span class="nav-item featureIcons">
-                        <button class="nav-link bg-transparent border-0" id="student_features" data-bs-toggle="tab" data-bs-target="#student_features-pane" type="button" role="tab" aria-controls="student_features-pane" aria-selected="false">
+                <li class="p-4 nav-item" role="presentation">
+                    <span class="featureIcons">
+                        <button class="nav-link bg-transparent border-0" id="student-tab" data-bs-toggle="tab" data-bs-target="#student-tab-pane" type="button" role="tab" aria-controls="student-tab-pane" aria-selected="false">
                             <figure>
                                 <img src="/img/studentlogo.png" class="logoPic" alt="">
                             </figure>
@@ -66,9 +66,9 @@
                         </button>
                     </span>
                 </li>
-                <li class="p-4">
-                    <span class="nav-item featureIcons">         
-                        <button class="nav-link bg-transparent border-0" id="parent_features" data-bs-toggle="tab" data-bs-target="#parent_features-pane" type="button" role="tab" aria-controls="parent_features-pane" aria-selected="false">           
+                <li class="p-4 nav-item" role="presentation">
+                    <span class="featureIcons">         
+                        <button class="nav-link bg-transparent border-0" id="parent-tab" data-bs-toggle="tab" data-bs-target="#parent-tab-pane" type="button" role="tab" aria-controls="parent-tab-pane" aria-selected="false">           
                             <figure>
                                 <img src="/img/parentlogo.png" class="logoPic" alt="">
                             </figure>
@@ -78,37 +78,506 @@
                 </li>
             </ul>
         </div>
-        <div class="container tab-content" id="myTabContent">
-            <div id="admin-features" class="tab-pane fade show active container" id="admin_features-pane" role="tabpanel" aria-labelledby="admin_features" tabindex="0">
-                <div class="d-flex flex-column justify-content-center align-items-center">
+    </section>
+    <section>
+        <div class="tab-content container pt-3" id="myTabContent">
+            <div class="tab-pane fade show active container" id="admin-tab-pane" role="tabpanel" aria-labelledby="admin-tab" tabindex="0">
+                <div class="d-flex flex-column justify-content-center align-items-center pb-5 mb-5">
                     <h1 class="sectionHomepage fontWeight p-3 titleFeatures text-center">Admin Features</h1>
                     <p class="sectionHomepage fs-4 pt-4">Web application with a white label that was developed in conjunction with the school and costs nothing to purchase. Use a single end-to-end solution to control all aspect of your school's operations rather than purchasing and maintaining many software programs.</p>
                 </div>
-                <div>
-                    <!--icons-->
+                <div class="container logoSection">
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/academictermsetup.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Academic Terms Setup</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/accessrights.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Access Rights</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/accountmanagement.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Accounts Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/audittrail.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Audit Trail</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/automatedsubject.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Automated Subject Advising</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/balanceforwarding.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Balance Forwarding</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/buildingandroom.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Building & Room Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/cashieringmodule.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Cashiering Module</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/classmasterlist.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Class Masterlist Generation</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/clearancemanagement.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Clearance Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/curriculummanagement.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Curriculum Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/enrolmentdashboard.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Enrollment Dashboard</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/feesandtuition.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Fees and Tuition Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/financereports.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Finance Reports</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/graduationmodule.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Graduation Module</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/generationofreportcard.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Generation of Report Card & Transcript</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/gradeanalytics.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Grade Analytics</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/hrevaluation.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">HR Evaluation</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/marketingsurvey.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Marketing Survey Management & Analytics</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/notification.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Notifications</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/onlineenlistment.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Enlistment</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/onlineenrolment.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Enrollment and Admission</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/orprinting.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">OR Printing</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/paymentplans.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Payment Plans Management</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/schedulingtool.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Scheduling Tool</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/scholarshipanddiscounts.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Scholarship & Discounts</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/schoolcalendar.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">School Calendar Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/schooldepartment.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">School Departments Management</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/schoolnewsfeed.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">School Newsfeed</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/schoolprofilemanagement.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">School Profile Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/schoolyear.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">School Year Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/sectionmanagement.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Section Management</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/slotmanagement.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Slots Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/soa.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Statement of Accounts (SOA) Generation</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/studentpayment.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Student Payments History</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/studentranking.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Student Ranking Reports</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5 pb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/studentrequirements.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Student Requirements Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/studentemployeeid.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Student & Employee ID Number Management</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/admin/subjectcrediting.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Subject Crediting</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div>
-
+            <div class="tab-pane fade container" id="teacher-tab-pane" role="tabpanel" aria-labelledby="teacher-tab" tabindex="0">
+                <div class="d-flex flex-column justify-content-center align-items-center pb-5 mb-5">
+                    <h1 class="sectionHomepage fontWeight p-3 titleFeatures text-center">Teacher Features</h1>
+                    <p class="sectionHomepage fs-4 pt-4">Manage all of your classes effectively and make online tests and evaluations from anywhere! Test analytics and automatic score reporting let teachers concentrate more on giving each kid the education that is right for them.</p>
+                </div>
+                <div class="container logoSection">
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/classschedule.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Class Schedule</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/employeeevaluation.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Employee Evaluation</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/encodingofgrades.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Encoding of Grades & Attendance</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/filesubmission.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">File Submission</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/itemanalysis.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Item Analysis</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/notification.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Notifications</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/onlineclasses.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Classes</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/onlinelearning.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Learning / Assessments</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/schoolnewsfeed.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">School News Feed</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/teacher/viewingofschool.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Viewing of School Calendar of Activities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade container" id="student-tab-pane" role="tabpanel" aria-labelledby="student-tab" tabindex="0">
+                <div class="d-flex flex-column justify-content-center align-items-center pb-5 mb-5">
+                    <h1 class="sectionHomepage fontWeight p-3 titleFeatures text-center">Student Features</h1>
+                    <p class="sectionHomepage fs-4 pt-4">From anywhere, check your grades, accounts, clearances, online tests, and more. Through your school's own app, you can now communicate and work with your teachers and classmates, as well as stay up to date on all the most recent activities and news coming directly from the school.</p>
+                </div>
+                <div class="container logoSection">
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/clearance.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Clearance</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/filesubmission.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">File Submission</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/messagesandgroupchat.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Messages & Group Chat</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/onlineenlistment.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Enlistment</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/onlineenrolment.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Enrollment</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/onlinelearning.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Learning & Assessments</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/schoolnewsfeed.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">School News Feed</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/soa.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Statement of Account</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/teacherevaluation.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Teacher Evaluation</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/viewingofgrades.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Viewing of Grades</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/viewingofschedule.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Viewing of Schedule</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/viewingofschool.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Viewing of School Calendar of Activities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade container" id="parent-tab-pane" role="tabpanel" aria-labelledby="parent-tab" tabindex="0">
+                <div class="d-flex flex-column justify-content-center align-items-center pb-5 mb-5">
+                    <h1 class="sectionHomepage fontWeight p-3 titleFeatures text-center">Parent Features</h1>
+                    <p class="sectionHomepage fs-4 pt-4">From anywhere, check your grades, accounts, clearances, online tests, and more. Through your school's own app, you can now communicate and work with your teachers and classmates, as well as stay up to date on all the most recent activities and news coming directly from the school.</p>
+                </div>
+                <div class="container logoSection">
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/parent/messagesandgroupchat.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Messages & Group Chat</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/parent/notification.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Notifications</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/parent/onlineenlistment.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Enlistment</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/onlineenrolment.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Enrollment</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/parent/onlinetuition.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Online Tuition Monitoring</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/parent/schoolnewsfeed.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">School News Feed</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/parent/viewingofgrades.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Viewing of Grades</p>
+                        </div>
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/student/viewingofschedule.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Viewing of Schedule</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center mb-5">
+                        <div class="text-center">
+                            <figure>
+                                <img src="/assets/logo/parent/viewingofschool.png" class="logoSize" alt="">
+                            </figure>
+                            <p class="logoPara fontWeight">Viewing of School Calendar of Activities</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="container">
-        
-    </section>
-            
-
-        
-
-
-
-
-
-<footer class="container-fluid footerBackground">
+    <footer class="container-fluid footerBackground">
         <div class="container">
             <ul class="nav justify-content-center pb-2 pt-4">
                 <li class="nav-item">
-                  <a class="nav-link navColor" href="#homepage">Home</a>
+                  <a class="nav-link navColor" href="##">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link navColor" href="##">Features</a>

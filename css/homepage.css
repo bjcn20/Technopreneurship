@@ -13,7 +13,6 @@
   width: 150px;
 }
 
-
 .fonthomepage{
   font-size: 45px;
   font-weight: 600;
@@ -103,10 +102,6 @@ span.featureIcons{
   color: #3378ff;
   text-decoration: underline;
   text-underline-offset: 1.5rem;
-}
-
-.colorTitle{
-  color: #3378ff;
 }
 
 .footerBackground{

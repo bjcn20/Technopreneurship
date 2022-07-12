@@ -67,3 +67,19 @@ figure{
     text-decoration: underline;
     text-underline-offset: 1.5rem;
   }
+
+.logoSection{
+    width: 75%;
+}
+
+.logoSize{
+    width: 60px;
+    height: auto;
+}
+
+.logoPara{
+    width: 130px;
+    height: 61px;
+    margin-top: 20px;
+    line-height: 1.4;
+  }
