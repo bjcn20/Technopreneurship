@@ -32,3 +32,9 @@
 .sectionHomepage{
     width: 65%;
 }
+
+.navHover:hover{
+    background: white; 
+    color: #6c91da;
+    border-radius: 20px;
+}

@@ -46,3 +46,8 @@ figure{
     margin-top: 20px;
     line-height: 1.4;
 }
+
+.featuresHover:hover{
+    background: #d5f3fe;
+    border-radius: 20px;
+}

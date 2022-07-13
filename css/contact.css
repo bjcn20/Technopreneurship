@@ -1,0 +1,38 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.div1 { grid-area: 1 / 1 / 7 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.picSize{
+    width: 500px;
+    height: auto;
+}
+
+.sectionMap{
+    height: 600px;
+}
+
+.titleFeatures{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buttonStyle{
+    background: #adceff;
+    color: black;
+    height:  auto;
+    width: 7rem;
+}

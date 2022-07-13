@@ -25,7 +25,7 @@
 }
 
 .logoSize{
-    height: 100px;
+    height: 110px;
     width: auto;
 }
 
@@ -39,13 +39,13 @@
 }
 
 .logoPara{
-    width: 130px;
+    width: 250px;
     height: 61px;
     margin-top: 20px;
     line-height: 1.4;
 }
 
 .logoSizing{
-    width: 75px;
+    width: 80px;
     height: auto;
 }
