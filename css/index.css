@@ -2,6 +2,11 @@
     font-family: 'Apercu', sans-serif;
 }
 
+html{
+    height: 100%;
+    width: 100%;
+}
+
 .background{
     background-image: linear-gradient( #a0bef8, white);
 }
@@ -37,4 +42,10 @@
     background: white; 
     color: #6c91da;
     border-radius: 20px;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
 }
