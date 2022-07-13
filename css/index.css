@@ -1,0 +1,34 @@
+*{
+    font-family: 'Apercu', sans-serif;
+}
+
+.background{
+    background-image: linear-gradient( #a0bef8, white);
+}
+
+.picture{
+    height: auto;
+    width: 150px;
+}
+
+.navColor{
+    text-decoration: none;
+    color: black;
+}
+
+.footerBackground{
+    background-image: radial-gradient(circle, #a0bef8, #a9c4f7, #b3c9f5, #bccff4, #c5d4f2);
+}
+
+.footerLogo{
+    width: auto;
+    height: 100px;
+}
+
+.fontWeight{
+    font-weight: 600;
+}
+
+.sectionHomepage{
+    width: 65%;
+}

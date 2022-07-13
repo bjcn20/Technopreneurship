@@ -1,31 +1,3 @@
-*{
-    font-family: 'Apercu', sans-serif;
-  }
-  
-.background{
-    /* background: linear-gradient(to right, #a0bef8, #b5f0f0); */
-    background-image: linear-gradient( #a0bef8, white);
-}
-
-.picture{
-    height: auto;
-    width: 150px;
-}
-
-.navColor{
-    text-decoration: none;
-    color: black;
-}
-
-.footerBackground{
-    background-image: radial-gradient(circle, #a0bef8, #a9c4f7, #b3c9f5, #bccff4, #c5d4f2);
-}
-  
-.footerLogo{
-    width: auto;
-    height: 100px;
-}
-
 .tabIcon{
     display: flex;
     justify-content: center;
@@ -41,11 +13,7 @@ span.featureIcons{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-
-  .fontWeight{
-    font-weight: 600;
-  }
+}
 
 .logoPic{
     width: auto;
@@ -55,11 +23,6 @@ span.featureIcons{
 figure{
     display: flex;
     justify-content: center;
-}
-
-.sectionHomepage
-{
-  width: 65%;
 }
 
 .titleFeatures{
@@ -82,4 +45,4 @@ figure{
     height: 61px;
     margin-top: 20px;
     line-height: 1.4;
-  }
+}

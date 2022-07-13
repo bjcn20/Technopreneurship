@@ -1,8 +1,3 @@
-#picxd{
-    height: 500px;
-    width: auto;
-}
-
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -15,29 +10,32 @@
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 .div3 { grid-area: 2 / 2 / 3 / 3; }
 
-.titleFeatures{
-    color: black;
-    text-decoration: underline;
-    text-underline-offset: 1.5rem;
+#picxd{
+    height: auto;
+    width: 600px;
 }
 
-.googleImage{
-    height: 250px;
+.brandsloganpic{
+    height: 500px;
     width: auto;
+}
+
+.titleFeatures{
+    color: #3378ff;
 }
 
 .logoSize{
-    height: 180px;
+    height: 100px;
     width: auto;
+}
+
+.paraSize{
+    width: 450px;
+    height: 100px;
 }
 
 .logoSection{
     width: 75%;
-}
-
-.logoSizing{
-    width: 60px;
-    height: auto;
 }
 
 .logoPara{
@@ -45,4 +43,9 @@
     height: 61px;
     margin-top: 20px;
     line-height: 1.4;
+}
+
+.logoSizing{
+    width: 75px;
+    height: auto;
 }
