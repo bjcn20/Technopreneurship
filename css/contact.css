@@ -36,3 +36,7 @@ input::-webkit-inner-spin-button {
     height:  auto;
     width: 7rem;
 }
+
+.noTextUnderline{
+    text-decoration: none;
+}
